@@ -1,0 +1,53 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFFFF; /* Fondo blanco */
+}
+
+.container {
+    position: relative;
+}
+
+.sunflower {
+    width: 400px;  /* Ajusta el tamaño de la imagen */
+    height: auto;
+    animation: girar 3s linear infinite;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.texto{
+position: absolute;
+top: 0;
+left: 0;
+margin: 10PX; /*  */
+
+}
+
+
+
+
+
+
+
+
+
+
